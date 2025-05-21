@@ -11,4 +11,4 @@ print(f"Multiplication of {number1} and {number2} is {prod_result}")
 
 
 
-Add basic_operations.py for Task 0
+#assuming number1 = 10 and number2 = 5
