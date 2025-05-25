@@ -1,4 +1,8 @@
-user_age = int(input("How old are you"))
-user_age_2050 = user_age + 27
-print("In 2050, you will be " ,user_age_2025, "years old")
-#assume that age is 30
+# Prompt the user to input their current age
+current_age = int(input("How old are you? "))
+
+# Calculate the age in 2050 (2050 - 2023 = 27 years later)
+age_in_2050 = current_age + 27
+
+# Print the result
+print("In 2050, you will be", age_in_2050, "years old.")
