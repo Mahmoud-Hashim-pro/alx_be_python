@@ -1,5 +1,4 @@
 width = 5
 length = 10
-Area = width*length
-print("The area of the rectangle is: ",Area)
+print("The area of the rectangle is: ",length*width)
 #assume length=10,width=5
