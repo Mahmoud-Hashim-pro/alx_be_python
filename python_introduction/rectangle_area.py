@@ -1,5 +1,5 @@
 width = 5
-lenth = 10
-Area = width*lenth
+length = 10
+Area = width*length
 print("The area of the rectangle is: ",Area)
-#assume leanth=10,width=5
+#assume length=10,width=5
