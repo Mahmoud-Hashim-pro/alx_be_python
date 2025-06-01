@@ -1,3 +1,15 @@
+# daily_reminder.py
+
+# Prompt the user to enter the task
+task = input("Enter your task: ")
+
+# Prompt the user to enter the priority
+priority = input("Priority (high/medium/low): ").lower()
+
+# Ask if the task is time-bound
+time_bound = input("Is it time-bound? (yes/no): ").lower()
+
+# Provide the customized reminder using match case
 match priority:
     case "high":
         if time_bound == "yes":
